@@ -1,6 +1,6 @@
-console.log('Сәлем, JavaScript аілемі');
+console.log('привет, мир JavaScript');
 
-console.log("Менің атым Ислам");
-console.log("мен 16 жастамын");
+console.log("Меня зовут ислам");
+console.log("мне 16 лет");
 
 
