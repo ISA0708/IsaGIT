@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Introduction to JavaScript</h1>
+    <img id="spinner" class="spinner-img" width="80px" src="img/fidget-spinner.png" alt="">
+    <button onclick="getAlert()">мені бас және хабарлама ал!</button>
+    <button onclick="changeColor()">Өзгерту</button>
+    <button onclick="spinnerCircle()">Айнал</button>
+    <button onclick="spinnerStop()">Тоқта</button>
+    <script>
+        function getAlert(){
+            alert('хеллоу разработчик')
+        }
+        function changeColor(){
+            var titleContent = document.getElementById('title')
+
+            titleContent.style.color = "red"
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
