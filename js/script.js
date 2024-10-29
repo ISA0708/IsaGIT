@@ -1,6 +1,6 @@
-console.log('Сәлем, JavaScript ілемәі');
+console.log('Сәлем, JavaScript аілемі');
 
-console.log("Менің атым: Ислам");
-console.log('live reload enbled.');
+console.log("Менің атым Ислам");
+console.log("мен 16 жастамын");
 
 
