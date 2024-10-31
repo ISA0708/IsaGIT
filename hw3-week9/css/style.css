@@ -15,7 +15,7 @@ body {
 
 .calculator {
     width: 320px;
-    border-radius: 8px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -33,6 +33,7 @@ body {
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    border-radius: 20px;
 }
 
 button {
@@ -40,6 +41,7 @@ button {
     padding: 20px;
     font-size: 20px;
     border: 1px solid #ddd;
+    border-radius: 20px;
     cursor: pointer;
     background-color: #f8f8f8;
     transition: background 0.2s;
@@ -55,14 +57,14 @@ button:nth-child(4n) {
 }
 
 button:nth-child(4n):hover {
-    background-color: #e08700;
+    background-color: #ff0000;
 }
 
 button:nth-last-child(1) {
-    background-color: #4caf50;
+    background-color: #00ff08;
     color: white;
 }
 
 button:nth-last-child(1):hover {
-    background-color: #45a049;
+    background-color: #006205;
 }
