@@ -1,4 +1,3 @@
-let age = Number(prompt("Сіз қанша жастасыз?"))
-let student = Number(prompt("Сіз окушысызба? 1-ия, 2-жок"))
+let san = Number(prompt("Введите цифру"))
 
-alert(age>65 || student==1)
+alert(san>=10 && san<=20);
